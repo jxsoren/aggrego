@@ -65,3 +65,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "faraday", "~> 2.12"
+
+gem "dotenv-rails", "~> 3.1"
+
+gem "rspotify", "~> 2.12"
+
+gem "faraday-follow_redirects", "~> 0.3.0"
