@@ -47,6 +47,7 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "rspec-rails", "~> 7.1"
 end
 
 group :development do
@@ -73,3 +74,5 @@ gem "dotenv-rails", "~> 3.1"
 gem "rspotify", "~> 2.12"
 
 gem "faraday-follow_redirects", "~> 0.3.0"
+
+gem 'webmock', '~> 3.23', '>= 3.23.1'
